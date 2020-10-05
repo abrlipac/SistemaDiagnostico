@@ -1,0 +1,55 @@
+E:\UPT EPIS 2020\PROGRA II\UNIDAD III\Proyecto Final III\proyecto-grupal-iii-unidad-g-merino-chambilla-taquila-sivirichi\SistemaDiagnostico.Negocio\bin\Debug\SistemaDiagnostico.Negocio.dll
+E:\UPT EPIS 2020\PROGRA II\UNIDAD III\Proyecto Final III\proyecto-grupal-iii-unidad-g-merino-chambilla-taquila-sivirichi\SistemaDiagnostico.Negocio\bin\Debug\SistemaDiagnostico.Negocio.pdb
+E:\UPT EPIS 2020\PROGRA II\UNIDAD III\Proyecto Final III\proyecto-grupal-iii-unidad-g-merino-chambilla-taquila-sivirichi\SistemaDiagnostico.Negocio\bin\Debug\SistemaDiagnostico.AccesoDatos.dll
+E:\UPT EPIS 2020\PROGRA II\UNIDAD III\Proyecto Final III\proyecto-grupal-iii-unidad-g-merino-chambilla-taquila-sivirichi\SistemaDiagnostico.Negocio\bin\Debug\SistemaDiagnostico.Entidad.dll
+E:\UPT EPIS 2020\PROGRA II\UNIDAD III\Proyecto Final III\proyecto-grupal-iii-unidad-g-merino-chambilla-taquila-sivirichi\SistemaDiagnostico.Negocio\bin\Debug\SistemaDiagnostico.AccesoDatos.pdb
+E:\UPT EPIS 2020\PROGRA II\UNIDAD III\Proyecto Final III\proyecto-grupal-iii-unidad-g-merino-chambilla-taquila-sivirichi\SistemaDiagnostico.Negocio\bin\Debug\SistemaDiagnostico.Entidad.pdb
+E:\UPT EPIS 2020\PROGRA II\UNIDAD III\Proyecto Final III\proyecto-grupal-iii-unidad-g-merino-chambilla-taquila-sivirichi\SistemaDiagnostico.Negocio\obj\Debug\SistemaDiagnostico.Negocio.csprojAssemblyReference.cache
+E:\UPT EPIS 2020\PROGRA II\UNIDAD III\Proyecto Final III\proyecto-grupal-iii-unidad-g-merino-chambilla-taquila-sivirichi\SistemaDiagnostico.Negocio\obj\Debug\SistemaDiagnostico.Negocio.csproj.CoreCompileInputs.cache
+E:\UPT EPIS 2020\PROGRA II\UNIDAD III\Proyecto Final III\proyecto-grupal-iii-unidad-g-merino-chambilla-taquila-sivirichi\SistemaDiagnostico.Negocio\obj\Debug\SistemaDiagnostico.Negocio.csproj.CopyComplete
+E:\UPT EPIS 2020\PROGRA II\UNIDAD III\Proyecto Final III\proyecto-grupal-iii-unidad-g-merino-chambilla-taquila-sivirichi\SistemaDiagnostico.Negocio\obj\Debug\SistemaDiagnostico.Negocio.dll
+E:\UPT EPIS 2020\PROGRA II\UNIDAD III\Proyecto Final III\proyecto-grupal-iii-unidad-g-merino-chambilla-taquila-sivirichi\SistemaDiagnostico.Negocio\obj\Debug\SistemaDiagnostico.Negocio.pdb
+C:\Users\USUARIO\Desktop\proyecto-grupal-iii-unidad-g-merino-chambilla-taquila-sivirichi\SistemaDiagnostico.Negocio\bin\Debug\SistemaDiagnostico.Negocio.dll
+C:\Users\USUARIO\Desktop\proyecto-grupal-iii-unidad-g-merino-chambilla-taquila-sivirichi\SistemaDiagnostico.Negocio\bin\Debug\SistemaDiagnostico.Negocio.pdb
+C:\Users\USUARIO\Desktop\proyecto-grupal-iii-unidad-g-merino-chambilla-taquila-sivirichi\SistemaDiagnostico.Negocio\bin\Debug\SistemaDiagnostico.AccesoDatos.dll
+C:\Users\USUARIO\Desktop\proyecto-grupal-iii-unidad-g-merino-chambilla-taquila-sivirichi\SistemaDiagnostico.Negocio\bin\Debug\SistemaDiagnostico.Entidad.dll
+C:\Users\USUARIO\Desktop\proyecto-grupal-iii-unidad-g-merino-chambilla-taquila-sivirichi\SistemaDiagnostico.Negocio\bin\Debug\SistemaDiagnostico.AccesoDatos.pdb
+C:\Users\USUARIO\Desktop\proyecto-grupal-iii-unidad-g-merino-chambilla-taquila-sivirichi\SistemaDiagnostico.Negocio\bin\Debug\SistemaDiagnostico.Entidad.pdb
+C:\Users\USUARIO\Desktop\proyecto-grupal-iii-unidad-g-merino-chambilla-taquila-sivirichi\SistemaDiagnostico.Negocio\obj\Debug\SistemaDiagnostico.Negocio.csprojAssemblyReference.cache
+C:\Users\USUARIO\Desktop\proyecto-grupal-iii-unidad-g-merino-chambilla-taquila-sivirichi\SistemaDiagnostico.Negocio\obj\Debug\SistemaDiagnostico.Negocio.csproj.CoreCompileInputs.cache
+C:\Users\USUARIO\Desktop\proyecto-grupal-iii-unidad-g-merino-chambilla-taquila-sivirichi\SistemaDiagnostico.Negocio\obj\Debug\SistemaDiagnostico.Negocio.csproj.CopyComplete
+C:\Users\USUARIO\Desktop\proyecto-grupal-iii-unidad-g-merino-chambilla-taquila-sivirichi\SistemaDiagnostico.Negocio\obj\Debug\SistemaDiagnostico.Negocio.dll
+C:\Users\USUARIO\Desktop\proyecto-grupal-iii-unidad-g-merino-chambilla-taquila-sivirichi\SistemaDiagnostico.Negocio\obj\Debug\SistemaDiagnostico.Negocio.pdb
+C:\Users\Percy\Desktop\proyecto-grupal-iii-unidad-g-merino-chambilla-taquila-sivirichi\SistemaDiagnostico.Negocio\bin\Debug\SistemaDiagnostico.Negocio.dll
+C:\Users\Percy\Desktop\proyecto-grupal-iii-unidad-g-merino-chambilla-taquila-sivirichi\SistemaDiagnostico.Negocio\bin\Debug\SistemaDiagnostico.Negocio.pdb
+C:\Users\Percy\Desktop\proyecto-grupal-iii-unidad-g-merino-chambilla-taquila-sivirichi\SistemaDiagnostico.Negocio\bin\Debug\SistemaDiagnostico.AccesoDatos.dll
+C:\Users\Percy\Desktop\proyecto-grupal-iii-unidad-g-merino-chambilla-taquila-sivirichi\SistemaDiagnostico.Negocio\bin\Debug\SistemaDiagnostico.Entidad.dll
+C:\Users\Percy\Desktop\proyecto-grupal-iii-unidad-g-merino-chambilla-taquila-sivirichi\SistemaDiagnostico.Negocio\bin\Debug\SistemaDiagnostico.AccesoDatos.pdb
+C:\Users\Percy\Desktop\proyecto-grupal-iii-unidad-g-merino-chambilla-taquila-sivirichi\SistemaDiagnostico.Negocio\bin\Debug\SistemaDiagnostico.Entidad.pdb
+C:\Users\Percy\Desktop\proyecto-grupal-iii-unidad-g-merino-chambilla-taquila-sivirichi\SistemaDiagnostico.Negocio\obj\Debug\SistemaDiagnostico.Negocio.csprojAssemblyReference.cache
+C:\Users\Percy\Desktop\proyecto-grupal-iii-unidad-g-merino-chambilla-taquila-sivirichi\SistemaDiagnostico.Negocio\obj\Debug\SistemaDiagnostico.Negocio.csproj.CoreCompileInputs.cache
+C:\Users\Percy\Desktop\proyecto-grupal-iii-unidad-g-merino-chambilla-taquila-sivirichi\SistemaDiagnostico.Negocio\obj\Debug\SistemaDiagnostico.Negocio.csproj.CopyComplete
+C:\Users\Percy\Desktop\proyecto-grupal-iii-unidad-g-merino-chambilla-taquila-sivirichi\SistemaDiagnostico.Negocio\obj\Debug\SistemaDiagnostico.Negocio.dll
+C:\Users\Percy\Desktop\proyecto-grupal-iii-unidad-g-merino-chambilla-taquila-sivirichi\SistemaDiagnostico.Negocio\obj\Debug\SistemaDiagnostico.Negocio.pdb
+C:\Users\Percy\Desktop\Nueva carpeta (2)\proyecto-grupal-iii-unidad-g-merino-chambilla-taquila-sivirichi\SistemaDiagnostico.Negocio\bin\Debug\SistemaDiagnostico.Negocio.dll
+C:\Users\Percy\Desktop\Nueva carpeta (2)\proyecto-grupal-iii-unidad-g-merino-chambilla-taquila-sivirichi\SistemaDiagnostico.Negocio\bin\Debug\SistemaDiagnostico.Negocio.pdb
+C:\Users\Percy\Desktop\Nueva carpeta (2)\proyecto-grupal-iii-unidad-g-merino-chambilla-taquila-sivirichi\SistemaDiagnostico.Negocio\bin\Debug\SistemaDiagnostico.AccesoDatos.dll
+C:\Users\Percy\Desktop\Nueva carpeta (2)\proyecto-grupal-iii-unidad-g-merino-chambilla-taquila-sivirichi\SistemaDiagnostico.Negocio\bin\Debug\SistemaDiagnostico.Entidad.dll
+C:\Users\Percy\Desktop\Nueva carpeta (2)\proyecto-grupal-iii-unidad-g-merino-chambilla-taquila-sivirichi\SistemaDiagnostico.Negocio\bin\Debug\SistemaDiagnostico.AccesoDatos.pdb
+C:\Users\Percy\Desktop\Nueva carpeta (2)\proyecto-grupal-iii-unidad-g-merino-chambilla-taquila-sivirichi\SistemaDiagnostico.Negocio\bin\Debug\SistemaDiagnostico.Entidad.pdb
+C:\Users\Percy\Desktop\Nueva carpeta (2)\proyecto-grupal-iii-unidad-g-merino-chambilla-taquila-sivirichi\SistemaDiagnostico.Negocio\obj\Debug\SistemaDiagnostico.Negocio.csprojAssemblyReference.cache
+C:\Users\Percy\Desktop\Nueva carpeta (2)\proyecto-grupal-iii-unidad-g-merino-chambilla-taquila-sivirichi\SistemaDiagnostico.Negocio\obj\Debug\SistemaDiagnostico.Negocio.csproj.CoreCompileInputs.cache
+C:\Users\Percy\Desktop\Nueva carpeta (2)\proyecto-grupal-iii-unidad-g-merino-chambilla-taquila-sivirichi\SistemaDiagnostico.Negocio\obj\Debug\SistemaDiagnostico.Negocio.csproj.CopyComplete
+C:\Users\Percy\Desktop\Nueva carpeta (2)\proyecto-grupal-iii-unidad-g-merino-chambilla-taquila-sivirichi\SistemaDiagnostico.Negocio\obj\Debug\SistemaDiagnostico.Negocio.dll
+C:\Users\Percy\Desktop\Nueva carpeta (2)\proyecto-grupal-iii-unidad-g-merino-chambilla-taquila-sivirichi\SistemaDiagnostico.Negocio\obj\Debug\SistemaDiagnostico.Negocio.pdb
+C:\Users\Percy\Desktop\PROYECTO\proyecto-grupal-iii-unidad-g-merino-chambilla-taquila-sivirichi\SistemaDiagnostico.Negocio\bin\Debug\SistemaDiagnostico.Negocio.dll
+C:\Users\Percy\Desktop\PROYECTO\proyecto-grupal-iii-unidad-g-merino-chambilla-taquila-sivirichi\SistemaDiagnostico.Negocio\bin\Debug\SistemaDiagnostico.Negocio.pdb
+C:\Users\Percy\Desktop\PROYECTO\proyecto-grupal-iii-unidad-g-merino-chambilla-taquila-sivirichi\SistemaDiagnostico.Negocio\bin\Debug\SistemaDiagnostico.AccesoDatos.dll
+C:\Users\Percy\Desktop\PROYECTO\proyecto-grupal-iii-unidad-g-merino-chambilla-taquila-sivirichi\SistemaDiagnostico.Negocio\bin\Debug\SistemaDiagnostico.Entidad.dll
+C:\Users\Percy\Desktop\PROYECTO\proyecto-grupal-iii-unidad-g-merino-chambilla-taquila-sivirichi\SistemaDiagnostico.Negocio\bin\Debug\SistemaDiagnostico.AccesoDatos.pdb
+C:\Users\Percy\Desktop\PROYECTO\proyecto-grupal-iii-unidad-g-merino-chambilla-taquila-sivirichi\SistemaDiagnostico.Negocio\bin\Debug\SistemaDiagnostico.Entidad.pdb
+C:\Users\Percy\Desktop\PROYECTO\proyecto-grupal-iii-unidad-g-merino-chambilla-taquila-sivirichi\SistemaDiagnostico.Negocio\obj\Debug\SistemaDiagnostico.Negocio.csprojAssemblyReference.cache
+C:\Users\Percy\Desktop\PROYECTO\proyecto-grupal-iii-unidad-g-merino-chambilla-taquila-sivirichi\SistemaDiagnostico.Negocio\obj\Debug\SistemaDiagnostico.Negocio.csproj.CoreCompileInputs.cache
+C:\Users\Percy\Desktop\PROYECTO\proyecto-grupal-iii-unidad-g-merino-chambilla-taquila-sivirichi\SistemaDiagnostico.Negocio\obj\Debug\SistemaDiagnostico.Negocio.csproj.CopyComplete
+C:\Users\Percy\Desktop\PROYECTO\proyecto-grupal-iii-unidad-g-merino-chambilla-taquila-sivirichi\SistemaDiagnostico.Negocio\obj\Debug\SistemaDiagnostico.Negocio.dll
+C:\Users\Percy\Desktop\PROYECTO\proyecto-grupal-iii-unidad-g-merino-chambilla-taquila-sivirichi\SistemaDiagnostico.Negocio\obj\Debug\SistemaDiagnostico.Negocio.pdb
