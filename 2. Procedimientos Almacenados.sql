@@ -503,31 +503,6 @@ BEGIN
    END
 GO
 
---PROCEDIMIENTO ACTUALIZAR
-CREATE PROCEDURE USP_Diagnostico_U
-@pdiagnostico_id int,
-@pdniempleado char(8),
-@pdni char(8),
-@pfecha varchar(20),
-@penfermedad varchar(20)
-AS
-BEGIN
- BEGIN TRAN
-  BEGIN TRY
-    UPDATE Diagnostico SET
-	dniEmpleado = @pdniempleado,
-	dni = @pdni,
-	fecha = @pfecha,
-	enfermedad = @penfermedad
-	WHERE diagnostico_id = @pdiagnostico_id
-  COMMIT
-  END TRY
-   BEGIN CATCH
-    ROLLBACK
-   END CATCH
-END
-GO
-
 --PROCEDIMIENTO ELIMINAR
 CREATE PROCEDURE USP_Diagnostico_D
 @pdiagnostico_id int

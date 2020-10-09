@@ -1,5 +1,4 @@
-# proyecto-grupal-SistemaDiagnostico-iii-unidad-g-merino-chambilla-taquila-sivirichi
-
+#Intrucciones
 
 1. Para que funcione el proyecto correctamente se debe referenciar el archivo "SwiPlCs.dll" que
 se encuentra en la ruta "SistemaDiagnostico.Presentacion\bin\Debug" del proyecto

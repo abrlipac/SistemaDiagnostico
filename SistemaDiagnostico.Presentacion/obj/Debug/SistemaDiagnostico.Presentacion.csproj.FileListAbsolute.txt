@@ -130,3 +130,26 @@ C:\Users\Percy\Desktop\Nueva carpeta\SistemaDiagnostico.Presentacion\obj\Debug\S
 C:\Users\Percy\Desktop\Nueva carpeta\SistemaDiagnostico.Presentacion\obj\Debug\SistemaDiagnostico.Presentacion.csproj.CopyComplete
 C:\Users\Percy\Desktop\Nueva carpeta\SistemaDiagnostico.Presentacion\obj\Debug\SistemaDiagnostico.Presentacion.exe
 C:\Users\Percy\Desktop\Nueva carpeta\SistemaDiagnostico.Presentacion\obj\Debug\SistemaDiagnostico.Presentacion.pdb
+C:\Users\Percy\Desktop\SistemaDiagnostico\SistemaDiagnostico.Presentacion\bin\Debug\SistemaDiagnostico.Presentacion.exe.config
+C:\Users\Percy\Desktop\SistemaDiagnostico\SistemaDiagnostico.Presentacion\bin\Debug\SistemaDiagnostico.Presentacion.exe
+C:\Users\Percy\Desktop\SistemaDiagnostico\SistemaDiagnostico.Presentacion\bin\Debug\SistemaDiagnostico.Presentacion.pdb
+C:\Users\Percy\Desktop\SistemaDiagnostico\SistemaDiagnostico.Presentacion\bin\Debug\SistemaDiagnostico.AccesoDatos.dll
+C:\Users\Percy\Desktop\SistemaDiagnostico\SistemaDiagnostico.Presentacion\bin\Debug\SistemaDiagnostico.Entidad.dll
+C:\Users\Percy\Desktop\SistemaDiagnostico\SistemaDiagnostico.Presentacion\bin\Debug\SistemaDiagnostico.Negocio.dll
+C:\Users\Percy\Desktop\SistemaDiagnostico\SistemaDiagnostico.Presentacion\bin\Debug\SistemaDiagnostico.AccesoDatos.pdb
+C:\Users\Percy\Desktop\SistemaDiagnostico\SistemaDiagnostico.Presentacion\bin\Debug\SistemaDiagnostico.Entidad.pdb
+C:\Users\Percy\Desktop\SistemaDiagnostico\SistemaDiagnostico.Presentacion\bin\Debug\SistemaDiagnostico.Negocio.pdb
+C:\Users\Percy\Desktop\SistemaDiagnostico\SistemaDiagnostico.Presentacion\obj\Debug\SistemaDiagnostico.Presentacion.csprojAssemblyReference.cache
+C:\Users\Percy\Desktop\SistemaDiagnostico\SistemaDiagnostico.Presentacion\obj\Debug\SistemaDiagnostico.Presentacion.FrmDiagnostico.resources
+C:\Users\Percy\Desktop\SistemaDiagnostico\SistemaDiagnostico.Presentacion\obj\Debug\SistemaDiagnostico.Presentacion.FrmEmpleado.resources
+C:\Users\Percy\Desktop\SistemaDiagnostico\SistemaDiagnostico.Presentacion\obj\Debug\SistemaDiagnostico.Presentacion.FrmEstadistica.resources
+C:\Users\Percy\Desktop\SistemaDiagnostico\SistemaDiagnostico.Presentacion\obj\Debug\SistemaDiagnostico.Presentacion.FrmLogin.resources
+C:\Users\Percy\Desktop\SistemaDiagnostico\SistemaDiagnostico.Presentacion\obj\Debug\SistemaDiagnostico.Presentacion.FrmPaciente.resources
+C:\Users\Percy\Desktop\SistemaDiagnostico\SistemaDiagnostico.Presentacion\obj\Debug\SistemaDiagnostico.Presentacion.FrmUsuario.resources
+C:\Users\Percy\Desktop\SistemaDiagnostico\SistemaDiagnostico.Presentacion\obj\Debug\SistemaDiagnostico.Presentacion.MenuPrincipal.resources
+C:\Users\Percy\Desktop\SistemaDiagnostico\SistemaDiagnostico.Presentacion\obj\Debug\SistemaDiagnostico.Presentacion.Properties.Resources.resources
+C:\Users\Percy\Desktop\SistemaDiagnostico\SistemaDiagnostico.Presentacion\obj\Debug\SistemaDiagnostico.Presentacion.csproj.GenerateResource.cache
+C:\Users\Percy\Desktop\SistemaDiagnostico\SistemaDiagnostico.Presentacion\obj\Debug\SistemaDiagnostico.Presentacion.csproj.CoreCompileInputs.cache
+C:\Users\Percy\Desktop\SistemaDiagnostico\SistemaDiagnostico.Presentacion\obj\Debug\SistemaDiagnostico.Presentacion.csproj.CopyComplete
+C:\Users\Percy\Desktop\SistemaDiagnostico\SistemaDiagnostico.Presentacion\obj\Debug\SistemaDiagnostico.Presentacion.exe
+C:\Users\Percy\Desktop\SistemaDiagnostico\SistemaDiagnostico.Presentacion\obj\Debug\SistemaDiagnostico.Presentacion.pdb

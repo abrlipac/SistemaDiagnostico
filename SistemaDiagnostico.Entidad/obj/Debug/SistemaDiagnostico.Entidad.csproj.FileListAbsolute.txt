@@ -28,3 +28,9 @@ C:\Users\Percy\Desktop\PROYECTO\proyecto-grupal-iii-unidad-g-merino-chambilla-ta
 C:\Users\Percy\Desktop\PROYECTO\proyecto-grupal-iii-unidad-g-merino-chambilla-taquila-sivirichi\SistemaDiagnostico.Entidad\obj\Debug\SistemaDiagnostico.Entidad.csproj.CoreCompileInputs.cache
 C:\Users\Percy\Desktop\PROYECTO\proyecto-grupal-iii-unidad-g-merino-chambilla-taquila-sivirichi\SistemaDiagnostico.Entidad\obj\Debug\SistemaDiagnostico.Entidad.dll
 C:\Users\Percy\Desktop\PROYECTO\proyecto-grupal-iii-unidad-g-merino-chambilla-taquila-sivirichi\SistemaDiagnostico.Entidad\obj\Debug\SistemaDiagnostico.Entidad.pdb
+C:\Users\Percy\Desktop\SistemaDiagnostico\SistemaDiagnostico.Entidad\bin\Debug\SistemaDiagnostico.Entidad.dll
+C:\Users\Percy\Desktop\SistemaDiagnostico\SistemaDiagnostico.Entidad\bin\Debug\SistemaDiagnostico.Entidad.pdb
+C:\Users\Percy\Desktop\SistemaDiagnostico\SistemaDiagnostico.Entidad\obj\Debug\SistemaDiagnostico.Entidad.csprojAssemblyReference.cache
+C:\Users\Percy\Desktop\SistemaDiagnostico\SistemaDiagnostico.Entidad\obj\Debug\SistemaDiagnostico.Entidad.csproj.CoreCompileInputs.cache
+C:\Users\Percy\Desktop\SistemaDiagnostico\SistemaDiagnostico.Entidad\obj\Debug\SistemaDiagnostico.Entidad.dll
+C:\Users\Percy\Desktop\SistemaDiagnostico\SistemaDiagnostico.Entidad\obj\Debug\SistemaDiagnostico.Entidad.pdb

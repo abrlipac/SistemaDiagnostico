@@ -43,3 +43,12 @@ C:\Users\Percy\Desktop\PROYECTO\proyecto-grupal-iii-unidad-g-merino-chambilla-ta
 C:\Users\Percy\Desktop\PROYECTO\proyecto-grupal-iii-unidad-g-merino-chambilla-taquila-sivirichi\SistemaDiagnostico.AccesoDatos\obj\Debug\SistemaDiagnostico.AccesoDatos.csproj.CopyComplete
 C:\Users\Percy\Desktop\PROYECTO\proyecto-grupal-iii-unidad-g-merino-chambilla-taquila-sivirichi\SistemaDiagnostico.AccesoDatos\obj\Debug\SistemaDiagnostico.AccesoDatos.dll
 C:\Users\Percy\Desktop\PROYECTO\proyecto-grupal-iii-unidad-g-merino-chambilla-taquila-sivirichi\SistemaDiagnostico.AccesoDatos\obj\Debug\SistemaDiagnostico.AccesoDatos.pdb
+C:\Users\Percy\Desktop\SistemaDiagnostico\SistemaDiagnostico.AccesoDatos\bin\Debug\SistemaDiagnostico.AccesoDatos.dll
+C:\Users\Percy\Desktop\SistemaDiagnostico\SistemaDiagnostico.AccesoDatos\bin\Debug\SistemaDiagnostico.AccesoDatos.pdb
+C:\Users\Percy\Desktop\SistemaDiagnostico\SistemaDiagnostico.AccesoDatos\bin\Debug\SistemaDiagnostico.Entidad.dll
+C:\Users\Percy\Desktop\SistemaDiagnostico\SistemaDiagnostico.AccesoDatos\bin\Debug\SistemaDiagnostico.Entidad.pdb
+C:\Users\Percy\Desktop\SistemaDiagnostico\SistemaDiagnostico.AccesoDatos\obj\Debug\SistemaDiagnostico.AccesoDatos.csprojAssemblyReference.cache
+C:\Users\Percy\Desktop\SistemaDiagnostico\SistemaDiagnostico.AccesoDatos\obj\Debug\SistemaDiagnostico.AccesoDatos.csproj.CoreCompileInputs.cache
+C:\Users\Percy\Desktop\SistemaDiagnostico\SistemaDiagnostico.AccesoDatos\obj\Debug\SistemaDiagnostico.AccesoDatos.csproj.CopyComplete
+C:\Users\Percy\Desktop\SistemaDiagnostico\SistemaDiagnostico.AccesoDatos\obj\Debug\SistemaDiagnostico.AccesoDatos.dll
+C:\Users\Percy\Desktop\SistemaDiagnostico\SistemaDiagnostico.AccesoDatos\obj\Debug\SistemaDiagnostico.AccesoDatos.pdb
