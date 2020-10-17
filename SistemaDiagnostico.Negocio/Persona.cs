@@ -4,10 +4,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SistemaDiagnostico.Entidad
+namespace SistemaDiagnostico.Negocio
 {
-    public class Paciente: Persona
+    public abstract class Persona
     {
+
+
 
 
 

@@ -6,13 +6,11 @@ using System.Threading.Tasks;
 
 namespace SistemaDiagnostico.Entidad
 {
-    public class UsuarioEntidad
+    public class Usuario: Persona
     {
-        public int UsuarioId { get; set; }
-        public string Dni { get; set; }
-        public string NomUsuario { get; set; }
-        public string Clave { get; set; }
-        public string Estado { get; set; }
+
+        public string _NomUsuario { get; set; }
+        public string _Clave { get; set; }
 
     }
 }

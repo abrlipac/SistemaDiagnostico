@@ -25,7 +25,7 @@ namespace SistemaDiagnostico.Negocio
             }
             else
             {
-                PacienteEntidad objPacienteE = new PacienteEntidad();
+                Paciente objPacienteE = new Paciente();
                 objPacienteE.Dni = Dni;
                 objPacienteE.Nombre = Nombre;
                 objPacienteE.Apellido = Apellido;

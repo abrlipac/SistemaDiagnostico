@@ -46,6 +46,7 @@
     <Compile Include="EmpleadoEntidad.cs" />
     <Compile Include="EnfermedadPosibleEntidad.cs" />
     <Compile Include="PacienteEntidad.cs" />
+    <Compile Include="Persona.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="UsuarioEntidad.cs" />
   </ItemGroup>
