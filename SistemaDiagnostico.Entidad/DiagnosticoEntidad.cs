@@ -9,9 +9,10 @@ namespace SistemaDiagnostico.Entidad
     public class DiagnosticoEntidad
     {
 
-        public int DiagnosticoId { get; set; }
-        public string dniEmpleado { get; set; }
-        public string Dni { get; set; }
+        public int numeroDiagnostico { get; private set; }
+        public  Empleado empleado{ get; private set; }
+     
+
         public string Fecha { get; set; }
         public string Enfermedad { get; set; }
 

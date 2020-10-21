@@ -8,8 +8,14 @@ namespace SistemaDiagnostico.Entidad
 {
     public class DetalleDiagnosticoEntidad
     {
-        public int DiagnosticoId { get; set; }
-        public string Sintoma { get; set; }
+        /// <summary>
+        /// Representa el identificador del detalle de Diagnostico
+        /// </summary>
+        public int DiagnosticoId { get; private set; }
+        /// <summary>
+        /// Representa la descripcion del detalle de Diagnostico
+        /// </summary>
+        public string Sintoma { get; private set; }
 
     }
 }

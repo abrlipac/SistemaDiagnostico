@@ -8,32 +8,21 @@ namespace SistemaDiagnostico.Entidad
 {
     public abstract class Persona
     {
-        protected string _Dni { get; set; }
-        protected string _Nombre { get; set; }
-        protected string _Apellido { get; set; }
-        protected char _Sexo { get; set; }
-        protected string _Direccion { get; set; }
-        protected string _Celular { get; set; }
+        protected string Dni { get; set; }
+        protected string Nombre { get; set; }
+        protected string Apellido { get; set; }
+        protected char Sexo { get; set; }
+        protected string Direccion { get; set; }
+        protected string Celular { get; set; }
         
-        public Persona(string dni, string nombre, string apellido, char sexo, string direccion, string celular)
+        public Persona(string _dni, string _nombre, string _apellido, char _sexo, string _direccion, string _celular)
         {
-            _Dni = dni;
-            _Nombre = nombre;
-            _Apellido = apellido;
-            _Sexo = sexo;
-            _Direccion = direccion; 
-            _Celular = celular;
-
+            Dni = _dni;
+            Nombre = _nombre;
+            Apellido = _apellido;
+            Sexo = _sexo;
+            Direccion = _direccion; 
+            Celular = _celular;
         }
-
-        public void ActualizarDatosPersonales(string dni = _Dni, string nombre = _Nombre, string apellido = _Apellido, char sexo = _Sexo, string direccion = _Direccion, string celular = _Celular)
-        {
-          _Dni = dni;
-          _Nombre = nombre;
-          _Apellido = apellido;
-          _Sexo = sexo;
-          _Direccion = direccion;
-          _Celular = celular;
-        }
-  }
+    }
 }

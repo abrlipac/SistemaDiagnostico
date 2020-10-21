@@ -44,7 +44,6 @@
     <Compile Include="DetalleDiagnosticoEntidad.cs" />
     <Compile Include="DiagnosticoEntidad.cs" />
     <Compile Include="EmpleadoEntidad.cs" />
-    <Compile Include="EnfermedadPosibleEntidad.cs" />
     <Compile Include="PacienteEntidad.cs" />
     <Compile Include="Persona.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

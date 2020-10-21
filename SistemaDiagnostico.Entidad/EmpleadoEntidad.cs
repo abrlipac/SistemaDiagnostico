@@ -8,25 +8,68 @@ namespace SistemaDiagnostico.Entidad
 {
     public class Empleado : Persona
     {
-        public int _Id { get; private set; }
-        public string _Cargo { get; private set; }
-        public string _Estado { get; private set; }
-       
-        public Empleado(int id, string dni, string nombre, string apellido, char sexo, string direccion, string celular, string cargo, string estado)
-          : base(dni, nombre, apellido,  sexo,  direccion,  celular)
+        /// <summary>
+        /// Identificador único del Empleado
+        /// </summary>
+        public int Id { get; private set; }
+        /// <summary>
+        /// Cargo del Empleado
+        /// </summary>
+        public string Cargo { get; private set; }
+        /// <summary>
+        /// Estado del Empleado
+        /// </summary>
+        public string Estado { get; private set; }
+
+        public Empleado(string _dni, string _nombre, string _apellido, char _sexo, string _direccion, string _celular, string _cargo, string _estado)
+          : base(_dni, _nombre, _apellido,  _sexo,  _direccion,  _celular)
         {
-            _Id = id;
-            _Cargo = cargo;
-            _Estado = estado;
+            Cargo = _cargo;
+            Estado = _estado;
         }
 
-    public static Empleado Agregar(int id, string dni, string nombre, string apellido, char sexo, string direccion, string celular, string cargo, string estado)
-          => new Empleado(id, dni, nombre, apellido, sexo , direccion,celular, cargo, estado);
-    
-    public void Activar()
-      => _Estado = "A";
-    public void Desactivar()
-      => _Estado = "D";
+        /// <summary>
+        /// Permite registrar a un nuevo Empleado
+        /// </summary>
+        /// <param name="_dni">Dni del empleado</param>
+        /// <param name="_nombre">Nombre del empleado</param>
+        /// <param name="_apellido">Apellido del empleado</param>
+        /// <param name="_sexo">Sexo del empleado</param>
+        /// <param name="_direccion">Direccion del empleado</param>
+        /// <param name="_celular">Celular del empleado</param>
+        /// <param name="_cargo">Cargo del empleado</param>
+        /// <param name="_estado">Estado del empleado</param>
+        /// <returns>Instancia nueva de la clase Empleado</returns>
+        public static Empleado Agregar( string _dni, string _nombre, string _apellido, char _sexo, string _direccion, string _celular, string _cargo, string _estado="A")
+            => new Empleado(_dni, _nombre, _apellido, _sexo , _direccion, _celular, _cargo, _estado);
+
+
+        /// <summary>
+        /// Permite modificar los datos del Empleado
+        /// </summary>
+        /// <param name="_dni">Nombre del empleado</param>
+        /// <param name="_nombre">Nombre del empleado</param>
+        /// <param name="_apellido">Apellido del empleado</param>
+        /// <param name="_sexo">Sexo del empleado</param>
+        /// <param name="_direccion">Direccion del empleado</param>
+        /// <param name="_celular">Celular del empleado</param>
+        /// <param name="_cargo">Cargo del empleado</param>
+        public void ModificarDatos(string _dni, string _nombre, string _apellido, char _sexo, string _direccion, string _celular, string _cargo)         
+        {
+            Dni = _dni;
+            Nombre = _nombre;
+            Apellido = _apellido;
+            Sexo = _sexo;
+            Direccion = _direccion;
+            Celular = _celular;
+            Cargo = _cargo;
+        }
+
+        /// <summary>
+        /// 
+        /// </summary>
+        public void Desactivar()
+            => Estado = "D";
 
     } 
    
