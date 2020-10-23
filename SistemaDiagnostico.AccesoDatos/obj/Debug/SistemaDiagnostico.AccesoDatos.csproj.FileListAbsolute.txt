@@ -52,3 +52,6 @@ C:\Users\Percy\Desktop\SistemaDiagnostico\SistemaDiagnostico.AccesoDatos\obj\Deb
 C:\Users\Percy\Desktop\SistemaDiagnostico\SistemaDiagnostico.AccesoDatos\obj\Debug\SistemaDiagnostico.AccesoDatos.csproj.CopyComplete
 C:\Users\Percy\Desktop\SistemaDiagnostico\SistemaDiagnostico.AccesoDatos\obj\Debug\SistemaDiagnostico.AccesoDatos.dll
 C:\Users\Percy\Desktop\SistemaDiagnostico\SistemaDiagnostico.AccesoDatos\obj\Debug\SistemaDiagnostico.AccesoDatos.pdb
+D:\Escritorio\upt\calidad_y_pruebas_de_software\1\SistemaDiagnostico\SistemaDiagnostico.AccesoDatos\obj\Debug\SistemaDiagnostico.AccesoDatos.csprojAssemblyReference.cache
+D:\Escritorio\upt\calidad_y_pruebas_de_software\1\SistemaDiagnostico\SistemaDiagnostico.AccesoDatos\obj\Debug\SistemaDiagnostico.AccesoDatos.dll
+D:\Escritorio\upt\calidad_y_pruebas_de_software\1\SistemaDiagnostico\SistemaDiagnostico.AccesoDatos\obj\Debug\SistemaDiagnostico.AccesoDatos.pdb

@@ -22,9 +22,9 @@ namespace SistemaDiagnostico.Entidad
             return new Diagnostico()
             {
                 Empleado = _empleado,
-                IdEmpleado = _empleado.IdEmpleado,
+                IdEmpleado = _empleado.Id,
                 Paciente = _paciente,
-                IdPaciente = _paciente.IdPaciente,
+                IdPaciente = _paciente.Id,
                 Fecha = DateTime.Now,
                 Enfermedad = _enfermedad
             };

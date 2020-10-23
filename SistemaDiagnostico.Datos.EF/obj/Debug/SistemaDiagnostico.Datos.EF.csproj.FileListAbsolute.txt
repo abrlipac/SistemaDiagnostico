@@ -1,0 +1,16 @@
+D:\Escritorio\upt\calidad_y_pruebas_de_software\1\SistemaDiagnostico\SistemaDiagnostico.Datos.EF\bin\Debug\SistemaDiagnostico.Datos.EF.dll.config
+D:\Escritorio\upt\calidad_y_pruebas_de_software\1\SistemaDiagnostico\SistemaDiagnostico.Datos.EF\bin\Debug\SistemaDiagnostico.Datos.EF.dll
+D:\Escritorio\upt\calidad_y_pruebas_de_software\1\SistemaDiagnostico\SistemaDiagnostico.Datos.EF\bin\Debug\SistemaDiagnostico.Datos.EF.pdb
+D:\Escritorio\upt\calidad_y_pruebas_de_software\1\SistemaDiagnostico\SistemaDiagnostico.Datos.EF\bin\Debug\EntityFramework.dll
+D:\Escritorio\upt\calidad_y_pruebas_de_software\1\SistemaDiagnostico\SistemaDiagnostico.Datos.EF\bin\Debug\EntityFramework.SqlServer.dll
+D:\Escritorio\upt\calidad_y_pruebas_de_software\1\SistemaDiagnostico\SistemaDiagnostico.Datos.EF\bin\Debug\EntityFramework.xml
+D:\Escritorio\upt\calidad_y_pruebas_de_software\1\SistemaDiagnostico\SistemaDiagnostico.Datos.EF\bin\Debug\EntityFramework.SqlServer.xml
+D:\Escritorio\upt\calidad_y_pruebas_de_software\1\SistemaDiagnostico\SistemaDiagnostico.Datos.EF\obj\Debug\SistemaDiagnostico.Datos.EF.csprojAssemblyReference.cache
+D:\Escritorio\upt\calidad_y_pruebas_de_software\1\SistemaDiagnostico\SistemaDiagnostico.Datos.EF\obj\Debug\SistemaDiagnostico.Datos.EF.csproj.CopyComplete
+D:\Escritorio\upt\calidad_y_pruebas_de_software\1\SistemaDiagnostico\SistemaDiagnostico.Datos.EF\obj\Debug\SistemaDiagnostico.Datos.EF.dll
+D:\Escritorio\upt\calidad_y_pruebas_de_software\1\SistemaDiagnostico\SistemaDiagnostico.Datos.EF\obj\Debug\SistemaDiagnostico.Datos.EF.pdb
+D:\Escritorio\upt\calidad_y_pruebas_de_software\1\SistemaDiagnostico\SistemaDiagnostico.Datos.EF\obj\Debug\SistemaDiagnostico.Datos.EF.Migrations.CrearEmpleado.resources
+D:\Escritorio\upt\calidad_y_pruebas_de_software\1\SistemaDiagnostico\SistemaDiagnostico.Datos.EF\obj\Debug\SistemaDiagnostico.Datos.EF.csproj.GenerateResource.cache
+D:\Escritorio\upt\calidad_y_pruebas_de_software\1\SistemaDiagnostico\SistemaDiagnostico.Datos.EF\bin\Debug\SistemaDiagnostico.Entidad.dll
+D:\Escritorio\upt\calidad_y_pruebas_de_software\1\SistemaDiagnostico\SistemaDiagnostico.Datos.EF\bin\Debug\SistemaDiagnostico.Entidad.pdb
+D:\Escritorio\upt\calidad_y_pruebas_de_software\1\SistemaDiagnostico\SistemaDiagnostico.Datos.EF\obj\Debug\SistemaDiagnostico.Datos.EF.Migrations.CrearPaciente.resources

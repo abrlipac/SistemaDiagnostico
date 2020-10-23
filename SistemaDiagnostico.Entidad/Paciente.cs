@@ -11,7 +11,7 @@ namespace SistemaDiagnostico.Entidad
         /// <summary>
         /// Identificador único del Paciente
         /// </summary>
-        public int IdPaciente { get; private set; }
+        public int Id { get; private set; }
         /// <summary>
         /// Estado del Paciente
         /// </summary>

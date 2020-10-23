@@ -64,3 +64,6 @@ C:\Users\Percy\Desktop\SistemaDiagnostico\SistemaDiagnostico.Negocio\obj\Debug\S
 C:\Users\Percy\Desktop\SistemaDiagnostico\SistemaDiagnostico.Negocio\obj\Debug\SistemaDiagnostico.Negocio.csproj.CopyComplete
 C:\Users\Percy\Desktop\SistemaDiagnostico\SistemaDiagnostico.Negocio\obj\Debug\SistemaDiagnostico.Negocio.dll
 C:\Users\Percy\Desktop\SistemaDiagnostico\SistemaDiagnostico.Negocio\obj\Debug\SistemaDiagnostico.Negocio.pdb
+D:\Escritorio\upt\calidad_y_pruebas_de_software\1\SistemaDiagnostico\SistemaDiagnostico.Negocio\obj\Debug\SistemaDiagnostico.Negocio.csprojAssemblyReference.cache
+D:\Escritorio\upt\calidad_y_pruebas_de_software\1\SistemaDiagnostico\SistemaDiagnostico.Negocio\obj\Debug\SistemaDiagnostico.Negocio.dll
+D:\Escritorio\upt\calidad_y_pruebas_de_software\1\SistemaDiagnostico\SistemaDiagnostico.Negocio\obj\Debug\SistemaDiagnostico.Negocio.pdb
