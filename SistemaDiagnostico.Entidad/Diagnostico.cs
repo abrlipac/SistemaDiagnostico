@@ -8,12 +8,11 @@ namespace SistemaDiagnostico.Entidad
 {
     public class Diagnostico
     {
-
-        public int idDiagnostico { get; private set; }
-        public  Empleado empleado{ get; private set; }
-        public int idEmpleado { get; private set; }
-        public Paciente paciente { get; private set; }
-        public int idPaciente { get; private set; }
+        public int IdDiagnostico { get; private set; }
+        public  Empleado Empleado{ get; private set; }
+        public int IdEmpleado { get; private set; }
+        public Paciente Paciente { get; private set; }
+        public int IdPaciente { get; private set; }
         public DateTime Fecha { get; private set; }
         public string Enfermedad { get; private set; }
         public ICollection<DetalleDiagnostico> Detalle { get; private set; }
@@ -22,10 +21,10 @@ namespace SistemaDiagnostico.Entidad
         {
             return new Diagnostico()
             {
-                empleado = _empleado,
-                idEmpleado = _empleado.IdEmpleado,
-                paciente = _paciente,
-                idPaciente = _paciente.IdPaciente,
+                Empleado = _empleado,
+                IdEmpleado = _empleado.IdEmpleado,
+                Paciente = _paciente,
+                IdPaciente = _paciente.IdPaciente,
                 Fecha = DateTime.Now,
                 Enfermedad = _enfermedad
             };

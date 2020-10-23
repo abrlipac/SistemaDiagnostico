@@ -11,6 +11,13 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SistemaDiagnostico.Presenta
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SistemaDiagnostico.AccesoDatos", "SistemaDiagnostico.AccesoDatos\SistemaDiagnostico.AccesoDatos.csproj", "{FD1C0306-0466-483F-9817-D5120EE3EDDF}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{7F2A3803-4F90-4BC1-93E8-A077DECB6B53}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SistemaDiagnostico.Datos.EF", "SistemaDiagnostico.Datos.EF\SistemaDiagnostico.Datos.EF.csproj", "{05D5005F-1D68-470F-B744-E592AA8DBDD8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +40,10 @@ Global
 		{FD1C0306-0466-483F-9817-D5120EE3EDDF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FD1C0306-0466-483F-9817-D5120EE3EDDF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FD1C0306-0466-483F-9817-D5120EE3EDDF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{05D5005F-1D68-470F-B744-E592AA8DBDD8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{05D5005F-1D68-470F-B744-E592AA8DBDD8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{05D5005F-1D68-470F-B744-E592AA8DBDD8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{05D5005F-1D68-470F-B744-E592AA8DBDD8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

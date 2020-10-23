@@ -34,3 +34,9 @@ C:\Users\Percy\Desktop\SistemaDiagnostico\SistemaDiagnostico.Entidad\obj\Debug\S
 C:\Users\Percy\Desktop\SistemaDiagnostico\SistemaDiagnostico.Entidad\obj\Debug\SistemaDiagnostico.Entidad.csproj.CoreCompileInputs.cache
 C:\Users\Percy\Desktop\SistemaDiagnostico\SistemaDiagnostico.Entidad\obj\Debug\SistemaDiagnostico.Entidad.dll
 C:\Users\Percy\Desktop\SistemaDiagnostico\SistemaDiagnostico.Entidad\obj\Debug\SistemaDiagnostico.Entidad.pdb
+D:\Escritorio\upt\calidad_y_pruebas_de_software\1\SistemaDiagnostico\SistemaDiagnostico.Entidad\bin\Debug\SistemaDiagnostico.Entidad.dll
+D:\Escritorio\upt\calidad_y_pruebas_de_software\1\SistemaDiagnostico\SistemaDiagnostico.Entidad\bin\Debug\SistemaDiagnostico.Entidad.pdb
+D:\Escritorio\upt\calidad_y_pruebas_de_software\1\SistemaDiagnostico\SistemaDiagnostico.Entidad\bin\Debug\SistemaDiagnostico.Entidad.dll.CodeAnalysisLog.xml
+D:\Escritorio\upt\calidad_y_pruebas_de_software\1\SistemaDiagnostico\SistemaDiagnostico.Entidad\bin\Debug\SistemaDiagnostico.Entidad.dll.lastcodeanalysissucceeded
+D:\Escritorio\upt\calidad_y_pruebas_de_software\1\SistemaDiagnostico\SistemaDiagnostico.Entidad\obj\Debug\SistemaDiagnostico.Entidad.dll
+D:\Escritorio\upt\calidad_y_pruebas_de_software\1\SistemaDiagnostico\SistemaDiagnostico.Entidad\obj\Debug\SistemaDiagnostico.Entidad.pdb
