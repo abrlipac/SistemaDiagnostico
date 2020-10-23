@@ -9,7 +9,7 @@ namespace SistemaDiagnostico.Entidad
     public class Diagnostico
     {
 
-        public int  idDiagnostico { get; private set; }
+        public int idDiagnostico { get; private set; }
         public  Empleado empleado{ get; private set; }
         public int idEmpleado { get; private set; }
         public Paciente paciente { get; private set; }
