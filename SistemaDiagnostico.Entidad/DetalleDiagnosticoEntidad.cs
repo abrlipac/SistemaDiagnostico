@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace SistemaDiagnostico.Entidad
 {
-    public class DetalleDiagnosticoEntidad
+    public class DetalleDiagnostico
     {
         /// <summary>
         /// Representa el identificador del detalle de Diagnostico

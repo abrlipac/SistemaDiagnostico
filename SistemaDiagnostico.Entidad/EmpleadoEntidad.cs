@@ -11,7 +11,7 @@ namespace SistemaDiagnostico.Entidad
         /// <summary>
         /// Identificador único del Empleado
         /// </summary>
-        public int Id { get; private set; }
+        public int IdEmpleado { get; private set; }
         /// <summary>
         /// Cargo del Empleado
         /// </summary>
