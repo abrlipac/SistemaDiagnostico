@@ -8,7 +8,7 @@ using SistemaDiagnostico.Entidad;
 
 namespace SistemaDiagnostico.Datos.EF
 {
-    class SistemaDiagnosticoContexto : DbContext
+    public class SistemaDiagnosticoContexto : DbContext
     {
         public DbSet<Empleado> Empleados { get; set; }
         public DbSet<Paciente> Pacientes { get; set; }

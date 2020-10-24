@@ -1,0 +1,121 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="SDiagnosticoModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2008" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="DetallesDiagnostico">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Diagnostico_Id" Type="int" Nullable="false" />
+    <Property Name="Sintoma" Type="nvarchar(max)" />
+  </EntityType>
+  <EntityType Name="Diagnosticos">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Empleado_Id" Type="int" Nullable="false" />
+    <Property Name="Paciente_Id" Type="int" Nullable="false" />
+    <Property Name="Fecha" Type="datetime" Nullable="false" />
+    <Property Name="Enfermedad" Type="nvarchar(max)" />
+  </EntityType>
+  <EntityType Name="Empleados">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Cargo" Type="nvarchar(max)" />
+    <Property Name="Estado" Type="nvarchar(max)" />
+    <Property Name="Dni" Type="nvarchar(max)" />
+    <Property Name="Nombre" Type="nvarchar(max)" />
+    <Property Name="Apellido" Type="nvarchar(max)" />
+    <Property Name="Direccion" Type="nvarchar(max)" />
+    <Property Name="Celular" Type="nvarchar(max)" />
+  </EntityType>
+  <EntityType Name="Pacientes">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Estado" Type="nvarchar(max)" />
+    <Property Name="Dni" Type="nvarchar(max)" />
+    <Property Name="Nombre" Type="nvarchar(max)" />
+    <Property Name="Apellido" Type="nvarchar(max)" />
+    <Property Name="Direccion" Type="nvarchar(max)" />
+    <Property Name="Celular" Type="nvarchar(max)" />
+  </EntityType>
+  <EntityType Name="Usuarios">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="NomUsuario" Type="nvarchar(max)" />
+    <Property Name="Clave" Type="nvarchar(max)" />
+    <Property Name="Estado" Type="nvarchar(max)" />
+    <Property Name="Dni" Type="nvarchar(max)" />
+    <Property Name="Nombre" Type="nvarchar(max)" />
+    <Property Name="Apellido" Type="nvarchar(max)" />
+    <Property Name="Direccion" Type="nvarchar(max)" />
+    <Property Name="Celular" Type="nvarchar(max)" />
+  </EntityType>
+  <Association Name="FK_dbo_DetallesDiagnostico_dbo_Diagnosticos_DetalleDiagnostico_Id">
+    <End Role="Diagnosticos" Type="Self.Diagnosticos" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="DetallesDiagnostico" Type="Self.DetallesDiagnostico" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Diagnosticos">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="DetallesDiagnostico">
+        <PropertyRef Name="Diagnostico_Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_dbo_Diagnosticos_dbo_Empleados_Empleado_Id">
+    <End Role="Empleados" Type="Self.Empleados" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="Diagnosticos" Type="Self.Diagnosticos" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Empleados">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Diagnosticos">
+        <PropertyRef Name="Empleado_Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_dbo_Diagnosticos_dbo_Pacientes_Paciente_Id">
+    <End Role="Pacientes" Type="Self.Pacientes" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="Diagnosticos" Type="Self.Diagnosticos" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Pacientes">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Diagnosticos">
+        <PropertyRef Name="Paciente_Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="SDiagnosticoModelStoreContainer">
+    <EntitySet Name="DetallesDiagnostico" EntityType="Self.DetallesDiagnostico" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Diagnosticos" EntityType="Self.Diagnosticos" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Empleados" EntityType="Self.Empleados" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Pacientes" EntityType="Self.Pacientes" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Usuarios" EntityType="Self.Usuarios" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK_dbo_DetallesDiagnostico_dbo_Diagnosticos_DetalleDiagnostico_Id" Association="Self.FK_dbo_DetallesDiagnostico_dbo_Diagnosticos_DetalleDiagnostico_Id">
+      <End Role="Diagnosticos" EntitySet="Diagnosticos" />
+      <End Role="DetallesDiagnostico" EntitySet="DetallesDiagnostico" />
+    </AssociationSet>
+    <AssociationSet Name="FK_dbo_Diagnosticos_dbo_Empleados_Empleado_Id" Association="Self.FK_dbo_Diagnosticos_dbo_Empleados_Empleado_Id">
+      <End Role="Empleados" EntitySet="Empleados" />
+      <End Role="Diagnosticos" EntitySet="Diagnosticos" />
+    </AssociationSet>
+    <AssociationSet Name="FK_dbo_Diagnosticos_dbo_Pacientes_Paciente_Id" Association="Self.FK_dbo_Diagnosticos_dbo_Pacientes_Paciente_Id">
+      <End Role="Pacientes" EntitySet="Pacientes" />
+      <End Role="Diagnosticos" EntitySet="Diagnosticos" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

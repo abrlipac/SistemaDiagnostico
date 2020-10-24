@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="d308be9c17e84223b00cb0615f01cb9a" Name="Diagram1">
+        <EntityTypeShape EntityType="SDiagnosticoModel.DetallesDiagnostico" Width="1.5" PointX="5.25" PointY="1.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="SDiagnosticoModel.Diagnosticos" Width="1.5" PointX="3" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="SDiagnosticoModel.Empleados" Width="1.5" PointX="0.75" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="SDiagnosticoModel.Pacientes" Width="1.5" PointX="0.75" PointY="5" IsExpanded="true" />
+        <EntityTypeShape EntityType="SDiagnosticoModel.Usuarios" Width="1.5" PointX="2.75" PointY="4.75" IsExpanded="true" />
+        <AssociationConnector Association="SDiagnosticoModel.FK_dbo_DetallesDiagnostico_dbo_Diagnosticos_DetalleDiagnostico_Id" ManuallyRouted="false" />
+        <AssociationConnector Association="SDiagnosticoModel.FK_dbo_Diagnosticos_dbo_Empleados_Empleado_Id" ManuallyRouted="false" />
+        <AssociationConnector Association="SDiagnosticoModel.FK_dbo_Diagnosticos_dbo_Pacientes_Paciente_Id" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
