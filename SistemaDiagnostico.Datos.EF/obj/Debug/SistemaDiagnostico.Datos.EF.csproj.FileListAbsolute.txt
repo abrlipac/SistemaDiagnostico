@@ -9,8 +9,12 @@ D:\Escritorio\upt\calidad_y_pruebas_de_software\1\SistemaDiagnostico\SistemaDiag
 D:\Escritorio\upt\calidad_y_pruebas_de_software\1\SistemaDiagnostico\SistemaDiagnostico.Datos.EF\obj\Debug\SistemaDiagnostico.Datos.EF.csproj.CopyComplete
 D:\Escritorio\upt\calidad_y_pruebas_de_software\1\SistemaDiagnostico\SistemaDiagnostico.Datos.EF\obj\Debug\SistemaDiagnostico.Datos.EF.dll
 D:\Escritorio\upt\calidad_y_pruebas_de_software\1\SistemaDiagnostico\SistemaDiagnostico.Datos.EF\obj\Debug\SistemaDiagnostico.Datos.EF.pdb
-D:\Escritorio\upt\calidad_y_pruebas_de_software\1\SistemaDiagnostico\SistemaDiagnostico.Datos.EF\obj\Debug\SistemaDiagnostico.Datos.EF.Migrations.CrearEmpleado.resources
 D:\Escritorio\upt\calidad_y_pruebas_de_software\1\SistemaDiagnostico\SistemaDiagnostico.Datos.EF\obj\Debug\SistemaDiagnostico.Datos.EF.csproj.GenerateResource.cache
 D:\Escritorio\upt\calidad_y_pruebas_de_software\1\SistemaDiagnostico\SistemaDiagnostico.Datos.EF\bin\Debug\SistemaDiagnostico.Entidad.dll
 D:\Escritorio\upt\calidad_y_pruebas_de_software\1\SistemaDiagnostico\SistemaDiagnostico.Datos.EF\bin\Debug\SistemaDiagnostico.Entidad.pdb
-D:\Escritorio\upt\calidad_y_pruebas_de_software\1\SistemaDiagnostico\SistemaDiagnostico.Datos.EF\obj\Debug\SistemaDiagnostico.Datos.EF.Migrations.CrearPaciente.resources
+D:\Escritorio\upt\calidad_y_pruebas_de_software\1\SistemaDiagnostico\SistemaDiagnostico.Datos.EF\obj\Debug\SistemaDiagnostico.Datos.EF.MigrationsNIU.CrearEmpleado.resources
+D:\Escritorio\upt\calidad_y_pruebas_de_software\1\SistemaDiagnostico\SistemaDiagnostico.Datos.EF\obj\Debug\SistemaDiagnostico.Datos.EF.MigrationsNIU.CrearPaciente.resources
+D:\Escritorio\upt\calidad_y_pruebas_de_software\1\SistemaDiagnostico\SistemaDiagnostico.Datos.EF\obj\Debug\SistemaDiagnostico.Datos.EF.MigrationsNIU.CrearUsuarios.resources
+D:\Escritorio\upt\calidad_y_pruebas_de_software\1\SistemaDiagnostico\SistemaDiagnostico.Datos.EF\obj\Debug\SistemaDiagnostico.Datos.EF.MigrationsNIU.CrearDiagnosticos.resources
+D:\Escritorio\upt\calidad_y_pruebas_de_software\1\SistemaDiagnostico\SistemaDiagnostico.Datos.EF\obj\Debug\SistemaDiagnostico.Datos.EF.Migrations.CrearTodo.resources
+D:\Escritorio\upt\calidad_y_pruebas_de_software\1\SistemaDiagnostico\SistemaDiagnostico.Datos.EF\obj\Debug\SistemaDiagnostico.Datos.EF.Migrations.CambiarNombreDetalle.resources

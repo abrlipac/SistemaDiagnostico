@@ -29,7 +29,6 @@ namespace SistemaDiagnostico.Entidad
         public Usuario(string _dni, string _nombre, string _apellido, char _sexo, string _direccion, string _celular, string _nomUsuario, string _clave,string _estado)
           : base(_dni, _nombre, _apellido, _sexo, _direccion, _celular)
         {
-            
             NomUsuario = _nomUsuario;
             Clave = _clave;
             Estado = _estado;

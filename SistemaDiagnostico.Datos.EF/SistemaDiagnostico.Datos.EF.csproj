@@ -51,13 +51,29 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Migrations\202010231414150_CrearEmpleado.cs" />
-    <Compile Include="Migrations\202010231414150_CrearEmpleado.designer.cs">
+    <Compile Include="Migrations [NIU]\202010231414150_CrearEmpleado.cs" />
+    <Compile Include="Migrations [NIU]\202010231414150_CrearEmpleado.designer.cs">
       <DependentUpon>202010231414150_CrearEmpleado.cs</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\202010231447003_CrearPaciente.cs" />
-    <Compile Include="Migrations\202010231447003_CrearPaciente.designer.cs">
+    <Compile Include="Migrations [NIU]\202010231447003_CrearPaciente.cs" />
+    <Compile Include="Migrations [NIU]\202010231447003_CrearPaciente.designer.cs">
       <DependentUpon>202010231447003_CrearPaciente.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations [NIU]\202010240339251_CrearUsuarios.cs" />
+    <Compile Include="Migrations [NIU]\202010240339251_CrearUsuarios.designer.cs">
+      <DependentUpon>202010240339251_CrearUsuarios.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations [NIU]\202010240353588_CrearDiagnosticos.cs" />
+    <Compile Include="Migrations [NIU]\202010240353588_CrearDiagnosticos.designer.cs">
+      <DependentUpon>202010240353588_CrearDiagnosticos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202010240426118_CrearTodo.cs" />
+    <Compile Include="Migrations\202010240426118_CrearTodo.designer.cs">
+      <DependentUpon>202010240426118_CrearTodo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202010240438550_CambiarNombreDetalle.cs" />
+    <Compile Include="Migrations\202010240438550_CambiarNombreDetalle.designer.cs">
+      <DependentUpon>202010240438550_CambiarNombreDetalle.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -66,7 +82,6 @@
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
       <DependentUpon>Settings.settings</DependentUpon>
     </Compile>
-    <Compile Include="Settings.cs" />
     <Compile Include="SistemaDiagnosticoContexto.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -78,11 +93,23 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Migrations\202010231414150_CrearEmpleado.resx">
+    <EmbeddedResource Include="Migrations [NIU]\202010231414150_CrearEmpleado.resx">
       <DependentUpon>202010231414150_CrearEmpleado.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202010231447003_CrearPaciente.resx">
+    <EmbeddedResource Include="Migrations [NIU]\202010231447003_CrearPaciente.resx">
       <DependentUpon>202010231447003_CrearPaciente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations [NIU]\202010240339251_CrearUsuarios.resx">
+      <DependentUpon>202010240339251_CrearUsuarios.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations [NIU]\202010240353588_CrearDiagnosticos.resx">
+      <DependentUpon>202010240353588_CrearDiagnosticos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202010240426118_CrearTodo.resx">
+      <DependentUpon>202010240426118_CrearTodo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202010240438550_CambiarNombreDetalle.resx">
+      <DependentUpon>202010240438550_CambiarNombreDetalle.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
@@ -91,6 +118,7 @@
       <Name>SistemaDiagnostico.Entidad</Name>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
     <PropertyGroup>

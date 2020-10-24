@@ -1,18 +1,17 @@
-﻿namespace SistemaDiagnostico.Datos.EF.Migrations
+﻿namespace SistemaDiagnostico.Datos.EF.MigrationsNIU
 {
     using System;
     using System.Data.Entity.Migrations;
     
-    public partial class CrearEmpleado : DbMigration
+    public partial class CrearPaciente : DbMigration
     {
         public override void Up()
         {
             CreateTable(
-                "dbo.Empleados",
+                "dbo.Pacientes",
                 c => new
                     {
                         Id = c.Int(nullable: false, identity: true),
-                        Cargo = c.String(),
                         Estado = c.String(),
                         Dni = c.String(),
                         Nombre = c.String(),
@@ -26,7 +25,7 @@
         
         public override void Down()
         {
-            DropTable("dbo.Empleados");
+            DropTable("dbo.Pacientes");
         }
     }
 }
