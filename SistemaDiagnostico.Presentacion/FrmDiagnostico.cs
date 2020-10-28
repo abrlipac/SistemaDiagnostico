@@ -1,15 +1,11 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.ComponentModel;
 using System.Data;
-using System.Drawing;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
-using SistemaDiagnostico.Negocio;
-using SbsSW.SwiPlCs;
 
+using SbsSW.SwiPlCs;
+using SistemaDiagnostico.PruebasUnitarias;
 
 namespace SistemaDiagnostico.Presentacion
 {
@@ -79,7 +75,7 @@ namespace SistemaDiagnostico.Presentacion
         {
             try
             {
-                dgvGrilla.DataSource = DiagnosticoNegocio.Listar();
+                // TODO: Listar
                 this.Formatear();
                 this.Limpiar();
                 this.Visualizar();
@@ -122,7 +118,9 @@ namespace SistemaDiagnostico.Presentacion
             {
                 string buscar = "";
                 buscar = txtBuscar.Text;
-                dgvGrilla.DataSource = DiagnosticoNegocio.Buscar(buscar);
+                
+                // TODO: Buscar
+
                 this.Formatear();
                 lblCantidad.Text = "Total de Registros: " + Convert.ToString(dgvGrilla.Rows.Count);
 
@@ -147,7 +145,7 @@ namespace SistemaDiagnostico.Presentacion
                 DataTable Tabla = new DataTable();
                 busqueda = txtdni.Text;
 
-                Tabla = DiagnosticoNegocio.BuscarPD(busqueda);
+                // TODO: Buscar
 
                 if (Tabla.Rows.Count <= 0)
                 {
@@ -200,10 +198,11 @@ namespace SistemaDiagnostico.Presentacion
                         if (Convert.ToBoolean(row.Cells[0].Value))
                         {
                             nro = Convert.ToInt32(row.Cells[1].Value);
-                            Rpta2 = DetalleDiagnosticoNegocio.Eliminar(nro);
-                            Rpta3 = EnfermedadPosibleNegocio.Eliminar(nro);
-                            Rpta = DiagnosticoNegocio.Eliminar(nro);
 
+                            // TODO: Eliminar
+                            // Rpta2 = DetalleDiagnosticoNegocio.Eliminar(nro);
+                            // Rpta3 = EnfermedadPosibleNegocio.Eliminar(nro);
+                            // Rpta = DiagnosticoNegocio.Eliminar(nro);
 
                             if (Rpta == "Correcto")
                             {
@@ -617,7 +616,8 @@ namespace SistemaDiagnostico.Presentacion
                 }
                 else
                 {
-                    Rpta = DiagnosticoNegocio.Insertar(Convert.ToInt32(txtCodigo.Text),EmpleadoDni, txtdni.Text.Trim(), lblfecha.Text, lbldiagnostico.Text);
+                    // TODO: Agregar
+                    // Rpta = DiagnosticoNegocio.Insertar(Convert.ToInt32(txtCodigo.Text),EmpleadoDni, txtdni.Text.Trim(), lblfecha.Text, lbldiagnostico.Text);
                     if (Rpta.Equals("Correcto"))
                     {
                         this.MensajeCorrecto("Se grabo el registro en la BD correctamente...");
@@ -631,12 +631,14 @@ namespace SistemaDiagnostico.Presentacion
 
                         foreach (var item in result)
                         {
-                            EnfermedadPosibleNegocio.Insertar(Convert.ToInt32(txtCodigo.Text), item.enfermedad);
+                            // TODO: Agregar
+                            // EnfermedadPosibleNegocio.Insertar(Convert.ToInt32(txtCodigo.Text), item.enfermedad);
                         }
 
                         for (int i = 0; i < listasintomas.Count(); i++)
                         {
-                            DetalleDiagnosticoNegocio.Insertar(Convert.ToInt32(txtCodigo.Text), listasintomas[i]);
+                            // TODO: Agregar
+                            // DetalleDiagnosticoNegocio.Insertar(Convert.ToInt32(txtCodigo.Text), listasintomas[i]);
                         }
 
                         this.Limpiar();

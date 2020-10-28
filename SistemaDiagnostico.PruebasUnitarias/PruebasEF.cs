@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Data.Entity;
-using System.Data.EntityClient;
-using SistemaDiagnostico.Datos.EF;
-using SistemaDiagnostico.Entidad;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System.Linq;
 

@@ -1,10 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using SistemaDiagnostico.Entidad;
 using System.Data.Entity;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using SistemaDiagnostico.Entidad;
 
 namespace SistemaDiagnostico.Datos.EF
 {

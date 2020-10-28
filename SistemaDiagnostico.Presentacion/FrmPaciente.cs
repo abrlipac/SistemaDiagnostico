@@ -49,7 +49,7 @@ namespace SistemaDiagnostico.Presentacion
         {
             try
             {
-                dgvGrilla.DataSource = PacienteNegocio.Listar();
+                // dgvGrilla.DataSource = PacienteNegocio.Listar();
                 this.Formatear();
                 this.Limpiar();
                 this.Visualizar();
@@ -103,7 +103,7 @@ namespace SistemaDiagnostico.Presentacion
                 string Buscar;
 
                 Buscar = txtBuscar.Text;
-                dgvGrilla.DataSource = PacienteNegocio.Buscar(Buscar);
+                // dgvGrilla.DataSource = PacienteNegocio.Buscar(Buscar);
                 this.Formatear();
                 lblCantidad.Text = "Total de registros: " + Convert.ToString(dgvGrilla.Rows.Count);
 
@@ -140,7 +140,7 @@ namespace SistemaDiagnostico.Presentacion
                         if (Convert.ToBoolean(row.Cells[0].Value))
                         {
                             dni = Convert.ToString(row.Cells[1].Value);
-                            Rpta = PacienteNegocio.Eliminar(dni);
+                            // Rpta = PacienteNegocio.Eliminar(dni);
 
                             if (Rpta == "Correcto")
                             {
@@ -248,8 +248,7 @@ namespace SistemaDiagnostico.Presentacion
                         sexo = "F";
                     }
 
-                    Rpta = PacienteNegocio.Insertar(txtDNI.Text.Trim(), txtNombre.Text.Trim(), txtApellido.Text.Trim(), sexo,(txtDireccion.Text.Trim()),
-                                                    txtCelular.Text.Trim(), txtEstado.Text.Trim());
+                    // Rpta = PacienteNegocio.Insertar(txtDNI.Text.Trim(), txtNombre.Text.Trim(), txtApellido.Text.Trim(), sexo,(txtDireccion.Text.Trim()), txtCelular.Text.Trim(), txtEstado.Text.Trim());
                     if (Rpta.Equals("Correcto"))
                     {
                         this.MensajeCorrecto("Se grabo el registro en la BD correctamente...");
@@ -293,9 +292,7 @@ namespace SistemaDiagnostico.Presentacion
                         sexo = "F";
                     }
 
-                    Rpta = PacienteNegocio.Actualizar(txtDNI.Text.Trim(),
-                                                     txtNombre.Text.Trim(), txtApellido.Text.Trim(),sexo, txtDireccion.Text.Trim(),
-                                                     txtCelular.Text.Trim(), txtEstado.Text.Trim());
+                    // Rpta = PacienteNegocio.Actualizar(txtDNI.Text.Trim(), txtNombre.Text.Trim(), txtApellido.Text.Trim(),sexo, txtDireccion.Text.Trim(), txtCelular.Text.Trim(), txtEstado.Text.Trim());
                     if (Rpta.Equals("Correcto"))
                     {
                         this.MensajeCorrecto("Se actualizo el registro en la BD correctamente...");
@@ -344,7 +341,7 @@ namespace SistemaDiagnostico.Presentacion
                         if (Convert.ToBoolean(row.Cells[0].Value))
                         {
                             codigo = Convert.ToInt32(row.Cells[1].Value);
-                            Rpta = PacienteNegocio.Activar(codigo);
+                            // Rpta = PacienteNegocio.Activar(codigo);
 
                             if (Rpta == "Correcto")
                             {
@@ -385,7 +382,7 @@ namespace SistemaDiagnostico.Presentacion
                         if (Convert.ToBoolean(row.Cells[0].Value))
                         {
                             codigo = Convert.ToInt32(row.Cells[1].Value);
-                            Rpta = PacienteNegocio.Desactivar(codigo);
+                            // Rpta = PacienteNegocio.Desactivar(codigo);
 
                             if (Rpta == "Correcto")
                             {

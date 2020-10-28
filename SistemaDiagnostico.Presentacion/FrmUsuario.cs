@@ -65,7 +65,7 @@ namespace SistemaDiagnostico.Presentacion
         {
             try
             {
-                dgvGrilla.DataSource = UsuarioNegocio.Listar();
+                // dgvGrilla.DataSource = UsuarioNegocio.Listar();
                 this.Formatear();
                 this.Limpiar();
                 this.Visualizar();
@@ -96,7 +96,7 @@ namespace SistemaDiagnostico.Presentacion
             {
                 string Buscar;
                 Buscar = txtBuscar.Text;
-                dgvGrilla.DataSource = UsuarioNegocio.Buscar(Buscar);
+                // dgvGrilla.DataSource = UsuarioNegocio.Buscar(Buscar);
                 this.Formatear();
                 lblCantidad.Text = "Total de registros: " + Convert.ToString(dgvGrilla.Rows.Count);
 
@@ -142,7 +142,7 @@ namespace SistemaDiagnostico.Presentacion
                 else
                 {
 
-                    Rpta = UsuarioNegocio.Insertar(txtDni.Text.Trim(), txtUsuario.Text.Trim(), txtClave.Text.Trim(), txtEstado.Text.Trim());
+                    // Rpta = UsuarioNegocio.Insertar(txtDni.Text.Trim(), txtUsuario.Text.Trim(), txtClave.Text.Trim(), txtEstado.Text.Trim());
                     if (Rpta.Equals("Correcto"))
                     {
                         this.MensajeCorrecto("Se grabo el registro en la BD correctamente...");
@@ -184,7 +184,7 @@ namespace SistemaDiagnostico.Presentacion
                         if (Convert.ToBoolean(row.Cells[0].Value))
                         {
                             id = Convert.ToInt32(row.Cells[1].Value);
-                            Rpta = UsuarioNegocio.Eliminar(id);
+                            // Rpta = UsuarioNegocio.Eliminar(id);
 
                             if (Rpta == "Correcto")
                             {
@@ -275,9 +275,7 @@ namespace SistemaDiagnostico.Presentacion
                 else
                 {
 
-                    Rpta = UsuarioNegocio.Actualizar(Convert.ToInt32(txtCodigo.Text.Trim()),
-                                                     txtDni.Text.Trim(), txtUsuario.Text.Trim(),
-                                                     txtClave.Text.Trim(), txtEstado.Text.Trim());
+                    // Rpta = UsuarioNegocio.Actualizar(Convert.ToInt32(txtCodigo.Text.Trim()), txtDni.Text.Trim(), txtUsuario.Text.Trim(), txtClave.Text.Trim(), txtEstado.Text.Trim());
                     if (Rpta.Equals("Correcto"))
                     {
                         this.MensajeCorrecto("Se actualizo el registro en la BD correctamente...");
@@ -322,7 +320,7 @@ namespace SistemaDiagnostico.Presentacion
                         if (Convert.ToBoolean(row.Cells[0].Value))
                         {
                             codigo = Convert.ToInt32(row.Cells[1].Value);
-                            Rpta = UsuarioNegocio.Activar(codigo);
+                            // Rpta = UsuarioNegocio.Activar(codigo);
 
                             if (Rpta == "Correcto")
                             {
@@ -363,7 +361,7 @@ namespace SistemaDiagnostico.Presentacion
                         if (Convert.ToBoolean(row.Cells[0].Value))
                         {
                             codigo = Convert.ToInt32(row.Cells[1].Value);
-                            Rpta = UsuarioNegocio.Desactivar(codigo);
+                            // Rpta = UsuarioNegocio.Desactivar(codigo);
 
                             if (Rpta == "Correcto")
                             {

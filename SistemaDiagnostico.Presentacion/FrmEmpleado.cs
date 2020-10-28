@@ -61,7 +61,7 @@ namespace SistemaDiagnostico.Presentacion
         {
             try
             {
-                dgvGrilla.DataSource = EmpleadoNegocio.Listar();
+                // dgvGrilla.DataSource = EmpleadoNegocio.Listar();
                 this.Formatear();
                 this.Limpiar();
                 this.Visualizar();
@@ -102,7 +102,7 @@ namespace SistemaDiagnostico.Presentacion
             {
                 string buscar = "";
                 buscar = txtBuscar.Text;
-                dgvGrilla.DataSource = EmpleadoNegocio.Buscar(buscar);
+                // dgvGrilla.DataSource = EmpleadoNegocio.Buscar(buscar);
                 this.Formatear();
                 lblCantidad.Text = "Total de registros: " + Convert.ToString(dgvGrilla.Rows.Count);
 
@@ -160,7 +160,7 @@ namespace SistemaDiagnostico.Presentacion
                 }
                 else
                 {
-                    Rpta = EmpleadoNegocio.Insertar(txtDni.Text.Trim(),txtNombre.Text.Trim(), txtApellido.Text.Trim(), txtCargo.Text.Trim(), txtDireccion.Text.Trim(), txtCelular.Text.Trim(), txtEstado.Text.Trim());
+                    // Rpta = EmpleadoNegocio.Insertar(txtDni.Text.Trim(),txtNombre.Text.Trim(), txtApellido.Text.Trim(), txtCargo.Text.Trim(), txtDireccion.Text.Trim(), txtCelular.Text.Trim(), txtEstado.Text.Trim());
                     if (Rpta.Equals("Correcto"))
                     {
                         this.MensajeCorrecto("Se grabo el registro en la BD correctamente...");
@@ -194,8 +194,7 @@ namespace SistemaDiagnostico.Presentacion
                 }
                 else
                 {
-                    Rpta = EmpleadoNegocio.Actualizar(txtDni.Text.Trim(), txtNombre.Text.Trim(), txtApellido.Text.Trim(),
-                                                      txtCargo.Text.Trim(), txtDireccion.Text.Trim(), txtCelular.Text.Trim(), txtEstado.Text.Trim());
+                    // Rpta = EmpleadoNegocio.Actualizar(txtDni.Text.Trim(), txtNombre.Text.Trim(), txtApellido.Text.Trim(), txtCargo.Text.Trim(), txtDireccion.Text.Trim(), txtCelular.Text.Trim(), txtEstado.Text.Trim());
                     if (Rpta.Equals("Correcto"))
                     {
                         this.MensajeCorrecto("Se Actualizo el registro en la BD correctamente.....");
@@ -250,7 +249,7 @@ namespace SistemaDiagnostico.Presentacion
                         if (Convert.ToBoolean(row.Cells[0].Value))
                         {
                             dni = Convert.ToString(row.Cells[1].Value);
-                            Rpta = EmpleadoNegocio.Eliminar(dni);
+                            // Rpta = EmpleadoNegocio.Eliminar(dni);
 
                             if (Rpta == "Correcto")
                             {
@@ -292,7 +291,7 @@ namespace SistemaDiagnostico.Presentacion
                         if (Convert.ToBoolean(row.Cells[0].Value))
                         {
                             dni = Convert.ToString(row.Cells[1].Value);
-                            Rpta = EmpleadoNegocio.Activar(dni);
+                            // Rpta = EmpleadoNegocio.Activar(dni);
 
                             if (Rpta == "Correcto")
                             {
@@ -333,7 +332,7 @@ namespace SistemaDiagnostico.Presentacion
                         if (Convert.ToBoolean(row.Cells[0].Value))
                         {
                             dni = Convert.ToString(row.Cells[1].Value);
-                            Rpta = EmpleadoNegocio.Desactivar(dni);
+                            // Rpta = EmpleadoNegocio.Desactivar(dni);
 
                             if (Rpta == "Correcto")
                             {

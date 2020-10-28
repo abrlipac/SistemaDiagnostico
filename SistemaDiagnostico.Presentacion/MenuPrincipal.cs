@@ -105,7 +105,7 @@ namespace SistemaDiagnostico.Presentacion
             if (ForDiagnostico == null)
             {
                 DataTable Tabla = new DataTable();
-                Tabla = UsuarioNegocio.LoginVerificar(DNI);
+                // Tabla = UsuarioNegocio.LoginVerificar(DNI);
 
                 ForDiagnostico = new FrmDiagnostico();
                 ForDiagnostico.MdiParent = this;
@@ -195,7 +195,7 @@ namespace SistemaDiagnostico.Presentacion
             if (ForDiagnostico == null)
             {
                 DataTable Tabla = new DataTable();
-                Tabla = UsuarioNegocio.LoginVerificar(DNI);
+                // Tabla = UsuarioNegocio.LoginVerificar(DNI);
 
                 ForDiagnostico = new FrmDiagnostico();
                 ForDiagnostico.MdiParent = this;

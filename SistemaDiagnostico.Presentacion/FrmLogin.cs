@@ -26,7 +26,7 @@ namespace SistemaDiagnostico.Presentacion
                 Usuario = txtUsuario.Text.Trim();
                 Password = txtContraseña.Text.Trim();
                 DataTable Tabla = new DataTable();
-                Tabla = UsuarioNegocio.Login(Usuario, Password);
+                // Tabla = UsuarioNegocio.Login(Usuario, Password);
 
                 if (Tabla.Rows.Count <= 0)
                 {

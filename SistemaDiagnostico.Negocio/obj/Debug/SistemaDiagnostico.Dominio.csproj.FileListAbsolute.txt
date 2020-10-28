@@ -1,0 +1,5 @@
+D:\Escritorio\upt\calidad_y_pruebas_de_software\1\SistemaDiagnosticov2\SistemaDiagnostico.Negocio\bin\Debug\SistemaDiagnostico.Negocio.dll
+D:\Escritorio\upt\calidad_y_pruebas_de_software\1\SistemaDiagnosticov2\SistemaDiagnostico.Negocio\bin\Debug\SistemaDiagnostico.Negocio.pdb
+D:\Escritorio\upt\calidad_y_pruebas_de_software\1\SistemaDiagnosticov2\SistemaDiagnostico.Negocio\obj\Debug\SistemaDiagnostico.Dominio.csprojAssemblyReference.cache
+D:\Escritorio\upt\calidad_y_pruebas_de_software\1\SistemaDiagnosticov2\SistemaDiagnostico.Negocio\obj\Debug\SistemaDiagnostico.Negocio.dll
+D:\Escritorio\upt\calidad_y_pruebas_de_software\1\SistemaDiagnosticov2\SistemaDiagnostico.Negocio\obj\Debug\SistemaDiagnostico.Negocio.pdb

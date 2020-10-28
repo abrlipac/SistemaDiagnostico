@@ -32,13 +32,13 @@ namespace SistemaDiagnostico.Presentacion
             DataTable Tabla6 = new DataTable();
             DataTable Tabla7 = new DataTable();
 
-            Tabla = DiagnosticoNegocio.GrafEnfermedades();
-            Tabla2 = DiagnosticoNegocio.GrafEnfermedades2();
-            Tabla3 = DiagnosticoNegocio.GrafEnfermedades3();
-            Tabla4 = DiagnosticoNegocio.GrafEnfermedades4();
-            Tabla5 = DiagnosticoNegocio.GrafEnfermedades5();
-            Tabla6 = DiagnosticoNegocio.GrafEnfermedades6();
-            Tabla7 = DiagnosticoNegocio.GrafEnfermedades7();
+            // Tabla = DiagnosticoNegocio.GrafEnfermedades();
+            // Tabla2 = DiagnosticoNegocio.GrafEnfermedades2();
+            // Tabla3 = DiagnosticoNegocio.GrafEnfermedades3();
+            // Tabla4 = DiagnosticoNegocio.GrafEnfermedades4();
+            // Tabla5 = DiagnosticoNegocio.GrafEnfermedades5();
+            // Tabla6 = DiagnosticoNegocio.GrafEnfermedades6();
+            // Tabla7 = DiagnosticoNegocio.GrafEnfermedades7();
 
             int dato = Convert.ToInt32(Tabla.Rows[0][0]);
             int dato2 = Convert.ToInt32(Tabla2.Rows[0][0]);

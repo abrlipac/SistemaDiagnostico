@@ -108,10 +108,6 @@
       <Project>{05d5005f-1d68-470f-b744-e592aa8dbdd8}</Project>
       <Name>SistemaDiagnostico.Datos.EF</Name>
     </ProjectReference>
-    <ProjectReference Include="..\SistemaDiagnostico.Entidad\SistemaDiagnostico.Entidad.csproj">
-      <Project>{fe89fa6f-c4b5-4497-b046-6b839b7869b3}</Project>
-      <Name>SistemaDiagnostico.Entidad</Name>
-    </ProjectReference>
   </ItemGroup>
   <ItemGroup>
     <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
